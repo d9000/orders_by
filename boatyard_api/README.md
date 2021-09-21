@@ -4,7 +4,7 @@ To test this poyect on local environment:
 
 * Install Docker
 
-* Create postgresql docker image
+* Create postgresql docker image: docker volume create --name boatyard-postgres
 
 * docker-compose build
 
