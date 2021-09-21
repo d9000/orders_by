@@ -1,0 +1,11 @@
+# Docker user and group ids
+# On linux these should match your ids
+USER_ID=1000
+GROUP_ID=1000
+
+SECRET_TOKEN=10ab3b5b0addd8cc3aa41c02f9d517d93da17f440c6f25df6aa1756fa224bfe0c8abf338ade450fe700ce91f270ac2d8906c560554a668226fd8a4184bdfeed9
+
+LISTEN_ON=0.0.0.0:3000
+PORT=3000
+
+DATABASE_URL=postgresql://boatyard:test_db_password@postgres:5432/boatyard-api?encoding=utf8&pool=5&timeout=5000
